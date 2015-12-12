@@ -1,0 +1,78 @@
+﻿Build started 11/18/2015 4:50:47 PM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\src\game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\DebugAxp\game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D C_ONLY /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\DebugAxp\\" /Fd".\DebugAxp\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt g_weapon.c  /QA21164 /MTd   /QA21164 /MTd 
+     1>cl : Command line warning D9002: ignoring unknown option '/QA21164'
+     1>cl : Command line warning D9002: ignoring unknown option '/QA21164'
+         g_weapon.c
+     1>g_weapon.c(331): warning C4101: 'enemy' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Program Files (x86)\Steam\steamapps\common\Quake 2\src\.\..\DebugAxp\game.dll) does not match the Linker's OutputFile property value (C:\Program Files (x86)\Steam\steamapps\common\Quake 2\DebugAxp\gameaxp.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(game) does not match the Linker's OutputFile property value (gameaxp). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\DebugAxp/gameaxp.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\game.def" /MANIFEST /ManifestFile:".\DebugAxp\game.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\Steam\steamapps\common\Quake 2\DebugAxp\game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x20000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\DebugAxp\gameaxp.lib" /MACHINE:X86 /DLL .\DebugAxp\game.dll.embed.manifest.res
+         .\DebugAxp\g_ai.obj
+         .\DebugAxp\g_chase.obj
+         .\DebugAxp\g_cmds.obj
+         .\DebugAxp\g_combat.obj
+         .\DebugAxp\g_func.obj
+         .\DebugAxp\g_items.obj
+         .\DebugAxp\g_main.obj
+         .\DebugAxp\g_misc.obj
+         .\DebugAxp\g_monster.obj
+         .\DebugAxp\g_phys.obj
+         .\DebugAxp\g_save.obj
+         .\DebugAxp\g_spawn.obj
+         .\DebugAxp\g_svcmds.obj
+         .\DebugAxp\g_target.obj
+         .\DebugAxp\g_trigger.obj
+         .\DebugAxp\g_turret.obj
+         .\DebugAxp\g_utils.obj
+         .\DebugAxp\g_weapon.obj
+         .\DebugAxp\m_actor.obj
+         .\DebugAxp\m_berserk.obj
+         .\DebugAxp\m_boss2.obj
+         .\DebugAxp\m_boss3.obj
+         .\DebugAxp\m_boss31.obj
+         .\DebugAxp\m_boss32.obj
+         .\DebugAxp\m_brain.obj
+         .\DebugAxp\m_chick.obj
+         .\DebugAxp\m_flash.obj
+         .\DebugAxp\m_flipper.obj
+         .\DebugAxp\m_float.obj
+         .\DebugAxp\m_flyer.obj
+         .\DebugAxp\m_gladiator.obj
+         .\DebugAxp\m_gunner.obj
+         .\DebugAxp\m_hover.obj
+         .\DebugAxp\m_infantry.obj
+         .\DebugAxp\m_insane.obj
+         .\DebugAxp\m_medic.obj
+         .\DebugAxp\m_move.obj
+         .\DebugAxp\m_mutant.obj
+         .\DebugAxp\m_parasite.obj
+         .\DebugAxp\m_soldier.obj
+         .\DebugAxp\m_supertank.obj
+         .\DebugAxp\m_tank.obj
+         .\DebugAxp\p_client.obj
+         .\DebugAxp\p_hud.obj
+         .\DebugAxp\p_trail.obj
+         .\DebugAxp\p_view.obj
+         .\DebugAxp\p_weapon.obj
+         .\DebugAxp\q_shared.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\DebugAxp\game.dll.embed.manifest" /manifest .\DebugAxp\game.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         game.vcxproj -> C:\Program Files (x86)\Steam\steamapps\common\Quake 2\src\.\..\DebugAxp\game.dll
+       FinalizeBuildStatus:
+         Deleting file ".\DebugAxp\game.unsuccessfulbuild".
+         Touching ".\DebugAxp\game.lastbuildstate".
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\src\game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.11
